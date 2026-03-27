@@ -23,7 +23,7 @@ public class ListDemo {
         // list2.add(1); compilation error type missmatch
         String string=list2.get(0);
         System.out.println(string);
-        System.out.println();
+        System.out.println(list2.size());
 
         //LinkedList
 
@@ -32,9 +32,11 @@ public class ListDemo {
         System.out.println(list2.get(0));
 
 
+
         //== initialization demo
         List<Integer> list3 = new ArrayList<>(Arrays.asList(1,2,3,4,4));
         System.out.println(list3.get(0));
+        System.out.println(list3.size());
 
 
 

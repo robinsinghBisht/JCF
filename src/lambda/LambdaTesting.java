@@ -1,5 +1,4 @@
-package lambda;
-
+package jcf.lambda;
 
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
